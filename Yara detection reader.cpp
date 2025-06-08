@@ -53,7 +53,7 @@ namespace Console {
         CONSOLE_CURSOR_INFO cursorInfo = {1, FALSE};
         if (!SetConsoleCursorInfo(hConsole, &cursorInfo)) Fail("Failed to hide cursor");
 
-        if (!SetConsoleTitleA("Yara Detection Reader - 0x108 & Bytecode - e1da58b32b1c4d64")) {
+        if (!SetConsoleTitleA("Yara Detection Reader - Modified by lithium - e1da58b32b1c4d64")) {
             Fail("Failed to set title");
         }
     }
